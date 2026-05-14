@@ -1,0 +1,47 @@
+.card {
+  background: #1f2937;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h3 {
+  color: #facc15;
+  margin-bottom: 10px;
+}
+
+.card-content p {
+  margin-bottom: 15px;
+}
+
+.details {
+  margin-top: 15px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+
+  border: none;
+  border-radius: 10px;
+
+  background: #facc15;
+
+  font-weight: bold;
+
+  cursor: pointer;
+}
