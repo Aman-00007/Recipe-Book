@@ -1,70 +1,137 @@
-# Getting Started with Create React App
+# 🍽️ Recipe Book
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern and responsive Recipe Book web application built using **React.js**.  
+Users can browse delicious recipes, search meals instantly, and view ingredients & cooking steps in a clean UI.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+# 🚀 Features
 
-### `npm start`
+- 🍕 Modern Responsive UI
+- 🔍 Real-Time Recipe Search
+- 📖 View Full Recipe Details
+- 🌐 Multi-Page Navigation
+- ⚡ Fast React Performance
+- 📱 Mobile Responsive Design
+- 🎨 Dark Theme Interface
+- 🍔 Popular Recipes Section
+- 📋 Ingredients & Steps
+- 🔗 React Router Navigation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# 🛠️ Tech Stack
 
-### `npm test`
+- React.js
+- JavaScript
+- CSS3
+- React Router DOM
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+# 📂 Folder Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+src/
+│
+├── components/
+│   ├── Navbar.js
+│   ├── SearchBar.js
+│   ├── RecipeCard.js
+│
+├── pages/
+│   ├── Home.js
+│   ├── Recipes.js
+│   ├── Popular.js
+│   └── Contact.js
+│
+├── data/
+│   └── recipes.js
+│
+├── App.js
+├── App.css
+└── index.js
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# ⚙️ Installation
 
-### `npm run eject`
+Clone the repository:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+git clone https://github.com/Aman-00007/Recipe-Book.git
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Move into the project folder:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+cd Recipe-Book
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Install dependencies:
 
-## Learn More
+```bash
+npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Start the development server:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm start
+```
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# 🌍 Run Locally
 
-### Analyzing the Bundle Size
+Open in browser:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+http://localhost:3000
+```
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# 📸 Screenshots
 
-### Advanced Configuration
+## 🏠 Home Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Add your screenshot here later.
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+# 📦 Build for Production
 
-### `npm run build` fails to minify
+```bash
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+# 🔮 Future Improvements
+
+- ❤️ Favorite Recipes
+- 🌙 Dark/Light Mode Toggle
+- 🔐 User Authentication
+- ☁️ Backend Integration
+- 🍳 Recipe API Integration
+- 📱 PWA Support
+- ⭐ Ratings & Reviews
+
+---
+
+# 👨‍💻 Author
+
+## Aman Rawat
+
+- GitHub: https://github.com/Aman-00007
+- LinkedIn: https://www.linkedin.com/in/aman-rawat-a94380324/
+
+---
+
+# ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
+
+---
